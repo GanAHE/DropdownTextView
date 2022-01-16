@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DropdownTextViewDemo</string>
+    <string name="unSetPopList">Popup menu item not set</string>
+    <string name="online_help"><u>online help</u></string>
+</resources>

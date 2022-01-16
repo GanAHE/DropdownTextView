@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="GPS_MODE">
+        <item>0-NONE</item>
+        <item>1-INTERNAL GPS</item>
+        <item>2-EXT.GPS RS232</item>
+        <item>3-EXTERNAL PULSE</item>
+        <item>4-EXT.GPS UDP</item>
+        <item>8-SIMULATED GPS</item>
+    </string-array>
+
+    <string-array name="ganahe_webType">
+        <item>dgzc.ganahe.top</item>
+        <item>ganahe.top</item>
+        <item>星辰换日</item>
+    </string-array>
+
+
+    <string-array name="WIFI_KEYS">
+        <item>Camaer1Wifi</item>
+        <item>Camaer1Password</item>
+        <item>Camaer2Wifi</item>
+        <item>Camaer2Password</item>
+        <item>Camaer3Wifi</item>
+        <item>Camaer3Password</item>
+        <item>Camaer4Wifi</item>
+        <item>Camaer4Password</item>
+        <item>Camaer5Wifi</item>
+        <item>Camaer5Password</item>
+    </string-array>
+
+
+
+</resources>

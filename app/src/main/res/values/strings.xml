@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DropdownTextViewDemo</string>
+    <string name="unSetPopList">未设置弹出菜单项</string>
+    <string name="online_help"><u>在线帮助</u></string>
+</resources>

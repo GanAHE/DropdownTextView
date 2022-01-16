@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionbar_color">#bf360c</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="alis_blue">#00BFFF</color>
+    <color name="top_background">#d453cef7</color>
+    <color name="default_blue_light">#ff33b5e5</color>
+    <color name="paramViewBlue">#0090ff</color>
+    <color name="orange">#FF6100</color>
+    <color name="red_orange">#FF4500</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="green_light">#5BF250</color>
+    <color name="green_yellow">#ADFF2F</color>
+    <color name="black">#000000</color>
+    <color name="background_black">#242d34</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_light">#7E7E7E</color>
+</resources>

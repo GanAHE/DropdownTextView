@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowCloseOnTouchOutside">false</item>/>
+    </style>
+
+    <style name="Theme.SoundRecorder" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="Theme.NoTitleActivity" parent="Theme.AppCompat.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!--是否去除标题 -->
+        <item name="windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!-- 背景透明 -->
+        <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item> <!--外部点击屏蔽-->
+    </style>
+
+
+    <!--popupWindow动画-->
+    <style name="CustomPopWindowStyle">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_anim_display</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_anim_dismiss</item>
+    </style>
+    <!--popupWindow左到右显示动画-->
+    <style name="CustomPopWindowStyleHorizontal">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_anim_display_right2left</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_anim_dismiss_left2right</item>
+    </style>
+
+    <!--popupWindow左进上出显示动画-->
+    <style name="CustomPopWindowStyleHorizontalInVerticalOut">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_anim_display_right2left</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_anim_dismiss_bottom2top_long_time</item>
+    </style>
+    <!--popupWindow从上到下显示动画-->
+    <style name="CustomPopWindowStyleVertical">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_anim_display_top2bottom</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_anim_dismiss_bottom2top</item>
+    </style>
+
+    <!--Switch文字样式-->
+    <style name="switchTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.Switch">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+
+</resources>

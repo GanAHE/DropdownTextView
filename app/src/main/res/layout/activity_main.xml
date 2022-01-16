@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demo1"/>
+
+        <com.ganahe.dropdowntextview.DropdownTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:zoneText="GPS_Mode"
+            app:arrays="@array/GPS_MODE"
+            app:iconSrc="@mipmap/select_more_down"
+            app:popWindowTextGravity="left"
+            app:zoneTextSize="12"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demo2"/>
+
+
+        <com.ganahe.dropdowntextview.DropdownTextView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            app:zoneTextSize="12"
+            app:zoneText="GanAHE_WebType"
+            app:arrays="@array/ganahe_webType"
+            app:popWindowHeight="120dp"
+            app:popWindowWidth="wrap_content"
+            app:popWindowBackGroundColor="#C8000000"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demo3"/>
+
+
+        <com.ganahe.dropdowntextview.DropdownTextView
+            android:id="@+id/customDropDownPopWindow_rional_speed"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            app:zoneTextSize="12"
+            app:zoneText="@string/app_name"
+            app:zoneTextColor="@color/alis_blue"
+            app:popWindowHeight="120dp"
+            app:popWindowWidth="wrap_content"
+            app:zoneTextUnderLineEnable="false"
+            app:popWindowTextGravity="left"
+            app:popWindowBackGroundColor="#C88CDD6E"
+            app:popWindowTextColor="@color/red_orange"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demo4"/>
+
+
+        <com.ganahe.dropdowntextview.DropdownTextView
+            android:id="@+id/dropdownTextview_demo_4"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            app:zoneTextSize="12"
+            app:zoneText="GanAHE"
+            app:popWindowHeight="wrap_content"
+            app:popWindowWidth="wrap_content"
+            app:popWindowTextGravity="center"
+            app:iconWidth="12dp"
+            app:iconHeight="12dp"
+            app:popWindowBackGroundColor="@color/purple_200"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demo5"/>
+
+
+        <com.ganahe.dropdowntextview.DropdownTextView
+            android:id="@+id/dropdownTextview_demo_5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            app:zoneTextSize="12"
+            app:zoneTextUnderLineColor="#FF9800"
+            app:zoneText="GanAHE"
+            app:popWindowHeight="120dp"
+            app:popWindowWidth="wrap_content"
+            app:popWindowTextGravity="right"
+            app:popWindowBackGroundColor="#D0499EE1" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textview_online_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/online_help"
+        android:textColor="@color/green_yellow"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout5" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layerType="software"
+        android:background="@color/gray_light"
+        app:layout_constraintBottom_toTopOf="@+id/textview_copyright" />
+
+    <TextView
+        android:id="@+id/textview_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright @ GanAHE"
+        android:layout_gravity="bottom"
+        android:textSize="18sp"
+        android:textColor="@color/gray_light"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

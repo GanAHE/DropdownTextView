@@ -1,0 +1,65 @@
+<!--
+  The MIT License (MIT)
+  
+  Copyright (c) 2013 Triggertrap Ltd
+  Author Neil Davies
+  
+  Permission is hereby granted, free of charge, to any person obtaining a copy of
+  this software and associated documentation files (the "Software"), to deal in
+  the Software without restriction, including without limitation the rights to
+  use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+  the Software, and to permit persons to whom the Software is furnished to do so,
+  subject to the following conditions:
+  
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+  
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+  FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<resources>
+    <!--自定义DropdownTextView控件属性-->
+    <declare-styleable name="dropdown_select_popwindow">
+        <attr name="arrays" format="reference"/>
+        <attr name="zoneText" format="string"/>
+        <attr name="textviewWidth" format="dimension"/> <!--外框尺寸-->
+        <attr name="textviewHeight" format="dimension"/> <!--外框尺寸-->
+        <attr name="zoneTextUnderLineEnable" format="boolean"/> <!--是否显示下划线-->
+        <attr name="zoneTextUnderLineColor" format="color"/> <!--是否显示下划线-->
+        <attr name="textviewBackground" format="reference|color"/>
+        <attr name="zoneTextSize" format="integer"/>
+        <attr name="zoneTextColor" format="reference|color"/> <!--控件字体颜色-->
+        <attr name="iconWidth" format="dimension"/>
+        <attr name="iconHeight" format="dimension"/>
+        <attr name="iconSrc" format="reference|color"/>
+        <attr name="iconBackground" format="reference|color"/>
+
+        <attr name="popWindowHeight" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+
+        <attr name="popWindowWidth" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="popWindowTextGravity" format="integer">
+            <!-- The item's view text position. -->
+            <enum name="left" value="-1" />
+
+            <enum name="center" value="0" />
+
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="popWindowBackGroundColor" format="reference|color"/>
+        <attr name="popWindowTextColor" format="color"/> <!--弹出框选择器字体颜色-->
+
+    </declare-styleable>
+
+    </resources>
