@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         for(String str:a){
             demo3List.add((CharSequence) str);
         }
+
         ((DropdownTextView) findViewById(R.id.customDropDownPopWindow_rional_speed)).setArrayItems(demo3List);
 
 
